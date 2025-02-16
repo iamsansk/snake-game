@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div class="game__info">
+        <p>PRESS SPACE to PAUSE or CONTINUE</p>
+        <p class="scoreboard">SCORE : <span id="score">0</span></p>
+    </div>
+    <canvas height="500" width="500" id="snake__ground"></canvas>
+    <div class="arrow__btns">
+        <button class="ArrowLeft">⬅️</button>
+        <button class="ArrowDown">⬇️</button>
+        <button class="ArrowUp">⬆️</button>
+        <button class="ArrowRight">➡️</button>
+    </div>
+    <button class="restart__btn">RESTART</button>
+    <script src="script.js"></script>
+</body>
+</html>
